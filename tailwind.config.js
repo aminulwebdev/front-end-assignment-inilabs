@@ -2,7 +2,7 @@ tailwind.config = {
   theme: {
     extend: {
       colors: {
-        brand: "#050038",
+        primary: "#050038",
         secondary: "#4262FF",
       },
       maxWidth: {
