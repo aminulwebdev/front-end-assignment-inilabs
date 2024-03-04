@@ -4,6 +4,7 @@ tailwind.config = {
       colors: {
         primary: "#050038",
         secondary: "#4262FF",
+       
       },
       maxWidth: {
         container: "1140px",
@@ -13,9 +14,14 @@ tailwind.config = {
         'inter': "'Inter', sans-serif",
         'helt': 'Helvetica, Arial, sans-serif',
       },
-      backgroundImage: {
-        'banner': " linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/banner.jpg')",
-      }
+      screens: {
+        'xs': '350px',
+        'sm': '576px',
+        'md': '768px',
+        'lg': '992px',
+        'xl': '1200px',
+        'xxl': '1400px',
+      },
     }
   }
 }
