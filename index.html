@@ -18,16 +18,83 @@
                 Header Part Start
     ===================================== -->
     <header>
+        <!-- ================================
+                Navbar Part Start
+    ===================================== -->
+        <!-- <nav class=" py-5 border-b border-[#F0F0F0]">
+            <div class="max-w-[80%] px-[30px] mx-auto">
+                <div class="flex items-center gap-x-7 justify-between">
+                    <div>
+                        <picture>
+                            <a href="index.html"><img src="./images/logo.png" alt="not found"></a>
+                        </picture>
+                    </div>
+                    <div class="flex items-center justify-between w-4/5">
+                        <div>
+                            <ul class="flex items-center gap-x-5">
+                                <li>
+                                    <a href="#"
+                                        class=" font-helt  capitalize font-normal text-base text-primary leading-6">product<i
+                                            class="fa-solid fa-chevron-down text-xs ml-3"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class=" font-helt capitalize font-normal text-base text-primary leading-6">solutions<i
+                                            class="fa-solid fa-chevron-down text-xs ml-3"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class=" font-helt capitalize font-normal text-base text-primary leading-6">resources<i
+                                            class="fa-solid fa-chevron-down text-xs ml-3"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class=" font-helt capitalize font-normal text-base text-primary leading-6">enterprise</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class=" font-helt capitalize font-normal text-base text-primary leading-6">pricing</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="flex items-center gap-x-6">
+                            <ul class="flex items-center gap-x-4">
+                                <li>
+                                    <i class="fa-solid fa-globe"></i> <span
+                                        class="font-helt uppercase text-primary text-base font-normal leading-6 ">en</span>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="capitalize font-helt text-primary text-base font-normal leading-6 ">contact
+                                        sales</a>
+                                </li>
+                            </ul>
+                            <div class="flex items-center gap-x-5">
+                                <a href="#"
+                                    class="capitalize font-helt text-primary text-base font-normal leading-6 ">Login</a>
+                                <a href="#"
+                                    class="capitalize font-helt text-primary text-base font-normal leading-4 text-white py-4 px-[22px] bg-secondary rounded-3xl inline-block">Sign
+                                    up
+                                    free <i class="fa-solid fa-arrow-right-long ml-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav> -->
 
         <nav class="bg-white  border-b border-[#F0F0F0]">
-            <div class="max-w-screen-xxl mx-auto flex flex-wrap p-5 ">
-                <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse lg:w-[10%]">
+            <div class="max-w-screen-xxl mx-auto flex flex-wrap p-5 items-center ">
+                <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse lg:w-[12%] xl:w-[10%]">
                     <img src="./images/logo.png" class="h-8" alt="" />
                 </a>
+                <div class="flex  lg:order-2 space-x-3 lg:space-x-0 rtl:space-x-reverse ml-auto">
+                    <!-- ============ Right Items ============== -->
 
-                <div class="flex jus lg:order-2 space-x-3 lg:space-x-0 rtl:space-x-reverse ml-auto">
                     <div class="flex items-center gap-x-6">
-                        <ul class="lg:flex items-center gap-x-4 hidden ">
+                        <ul class="xl:flex items-center gap-x-4 hidden ">
                             <li class="flex items-center gap-2">
                                 <img src="./images/lang_logo.svg" alt="" class=" w-[22px]">
                                 <span
@@ -41,16 +108,15 @@
                         </ul>
                         <div class="flex items-center gap-x-5">
                             <a href="#"
-                                class="capitalize font-helt text-primary text-base font-normal leading-6 ">Login</a>
+                                class="capitalize font-helt text-primary text-base font-normal leading-6 hidden sm:block">Login</a>
                             <a href="#"
-                                class="capitalize font-helt text-base font-normal leading-4 text-white py-4 px-[22px] bg-secondary rounded-3xl inline-block">Sign
-                                up
-                                free <i class="fa-solid fa-arrow-right-long ml-2"></i></a>
+                                class="capitalize font-helt text-xs sm:text-sm md:text-base font-normal leading-4 text-white py-3 md:py-4 px-4 sm:px-5 md:px-[22px] bg-secondary rounded-3xl inline-block">Sign
+                                up free <i class="fa-solid fa-arrow-right-long ml-2"></i></a>
                         </div>
                     </div>
                     <!-- ============ 3 line for responsive ============== -->
                     <button data-collapse-toggle="navbar-cta" type="button"
-                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                        class="inline-flex items-center px-[13px]   justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none "
                         aria-controls="navbar-cta" aria-expanded="false">
                         <span class="sr-only">Open main menu</span>
                         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -59,16 +125,11 @@
                                 d="M1 1h15M1 7h15M1 13h15" />
                         </svg>
                     </button>
-
                 </div>
-
-
                 <!-- =========== Menu Item ============== -->
-
                 <div class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1" id="navbar-cta">
                     <ul
                         class="flex flex-col font-medium p-4 lg:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 lg:space-x-5 rtl:space-x-reverse lg:flex-row lg:mt-0 lg:border-0 lg:bg-white">
-
                         <li>
                             <button id="dropdownNavbarLinkProduct" data-dropdown-toggle="dropdownNavbarProduct" class="flex items-center justify-between w-full  py-2 px-3 font-helt  capitalize font-normal text-base text-primary leading-6
                                 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0
@@ -78,6 +139,7 @@
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" d="m1 1 4 4 4-4" />
                                 </svg></button>
+
                             <!-- Dropdown menu -->
                             <div id="dropdownNavbarProduct"
                                 class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
@@ -174,75 +236,6 @@
                 </div>
             </div>
         </nav>
-
-
-
-        <!-- ================================
-                Navbar Part Start
-    ===================================== -->
-        <!-- <nav class=" py-5 border-b border-[#F0F0F0]">
-            <div class="max-w-[80%] px-[30px] mx-auto">
-                <div class="flex items-center gap-x-7 justify-between">
-                    <div>
-                        <picture>
-                            <a href="index.html"><img src="./images/logo.png" alt="not found"></a>
-                        </picture>
-                    </div>
-                    <div class="flex items-center justify-between w-4/5">
-                        <div>
-                            <ul class="flex items-center gap-x-5">
-                                <li>
-                                    <a href="#"
-                                        class=" font-helt  capitalize font-normal text-base text-primary leading-6">product<i
-                                            class="fa-solid fa-chevron-down text-xs ml-3"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        class=" font-helt capitalize font-normal text-base text-primary leading-6">solutions<i
-                                            class="fa-solid fa-chevron-down text-xs ml-3"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        class=" font-helt capitalize font-normal text-base text-primary leading-6">resources<i
-                                            class="fa-solid fa-chevron-down text-xs ml-3"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        class=" font-helt capitalize font-normal text-base text-primary leading-6">enterprise</a>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        class=" font-helt capitalize font-normal text-base text-primary leading-6">pricing</a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="flex items-center gap-x-6">
-                            <ul class="flex items-center gap-x-4">
-                                <li>
-                                    <i class="fa-solid fa-globe"></i> <span
-                                        class="font-helt uppercase text-primary text-base font-normal leading-6 ">en</span>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        class="capitalize font-helt text-primary text-base font-normal leading-6 ">contact
-                                        sales</a>
-                                </li>
-                            </ul>
-                            <div class="flex items-center gap-x-5">
-                                <a href="#"
-                                    class="capitalize font-helt text-primary text-base font-normal leading-6 ">Login</a>
-                                <a href="#"
-                                    class="capitalize font-helt text-primary text-base font-normal leading-4 text-white py-4 px-[22px] bg-secondary rounded-3xl inline-block">Sign
-                                    up
-                                    free <i class="fa-solid fa-arrow-right-long ml-2"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </nav> -->
         <!-- ================================
                 Navbar Part End
     ===================================== -->
@@ -355,7 +348,7 @@
                         class="text-primary font-inter text-4xl sm:text-5xl font-bold leading-10 sm:leading-[56px] tracking-[-1px]  text-center ">
                         Collaborate
                         without constraints</h2>
-                    <div class="absolute top-[-77px] right-[-69px]">
+                    <div class="absolute  top-[-70%] right-[-16%] hidden md:block">
                         <picture>
                             <img src="./images/collaborate.svg" alt="not found">
                         </picture>
@@ -618,25 +611,28 @@
                     <div class="lg:flex ">
                         <div class="lg:w-[30%] lg:pl-3 lg:pt-8 lg:pr-10">
                             <ul class="flex  flex-col gap-4">
-                                <li class="text-primary opacity-60 font-helt text-lg font-normal leading-6 text-center">
+                                <li
+                                    class="text-primary opacity-60 font-helt text-lg font-normal leading-6 lg:text-start text-center">
                                     <i class="fa-solid fa-check mr-[14px]"></i>Build low-fi
                                     wireframes</li>
-                                <li class="text-primary opacity-60 font-helt text-lg font-normal leading-6 text-center">
+                                <li
+                                    class="text-primary opacity-60 font-helt text-lg font-normal leading-6 lg:text-start text-center">
                                     <i class="fa-solid fa-check mr-[14px]"></i>Involve stakeholders in the design
                                     process</li>
-                                <li class="text-primary opacity-60 font-helt text-lg font-normal leading-6 text-center">
+                                <li
+                                    class="text-primary opacity-60 font-helt text-lg font-normal leading-6 lg:text-start text-center">
                                     <i class="fa-solid fa-check mr-[14px]"></i>Run engaging design workshops</li>
                             </ul>
-                            <div class="text-center">
+                            <div class="lg:text-start text-center">
                                 <a href="#"
                                     class="font-helt text-secondary text-lg font-normal leading-6 pt-[34px]  pb-8 lg:pb-[70px] inline-block">Learn
                                     more<i class="fa-solid fa-arrow-right ml-4" aria-hidden="true"></i></a>
                             </div>
                             <div>
                                 <p
-                                    class="text-primary opacity-60 font-helt text-lg font-normal leading-6 tracking-[-0.25px] pb-[22px] text-center">
+                                    class="text-primary opacity-60 font-helt text-lg font-normal leading-6 tracking-[-0.25px] pb-[22px] lg:text-start text-center">
                                     Integrate your favorite tools</p>
-                                <div class="flex items-center gap-x-8 justify-center">
+                                <div class="flex items-center gap-x-8 lg:justify-start justify-center">
                                     <img src="./images/tool_one.svg" alt="not found">
                                     <img src="./images/tool_two.svg" alt="not found">
                                     <img src="./images/tool_three.svg" alt="not found">
@@ -665,7 +661,7 @@
             <div class="max-w-container mx-auto">
                 <div class="text-center">
                     <h2
-                        class="text-primary font-inter text-4xl sm:text-5xl font-bold leading-10 sm:leading-[56px] tracking-[-1px] text-center lg:text-start mx-auto lg:mx-0 max-w-[772px]">
+                        class="text-primary font-inter text-4xl sm:text-5xl font-bold leading-10 sm:leading-[56px] tracking-[-1px] text-center  mx-auto  max-w-[772px]">
                         Loved by the world's best teams</h2>
                     <a href="#"
                         class="py-3 px-8 border border-secondary rounded-full inline-block text-secondary font-helt text-lg font-normal leading-6  mt-6 mb-10 ">See
