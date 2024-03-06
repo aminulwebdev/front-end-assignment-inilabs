@@ -1312,6 +1312,10 @@ input:checked + .toggle-bg {
   height: 2.25rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -1665,6 +1669,10 @@ input:checked + .toggle-bg {
 
 .border-b {
   border-bottom-width: 1px;
+}
+
+.border-none {
+  border-style: none;
 }
 
 .border-\[\#9B99AF\] {
@@ -2032,6 +2040,18 @@ input:checked + .toggle-bg {
   padding-top: 86px;
 }
 
+.pr-20 {
+  padding-right: 5rem;
+}
+
+.pr-3 {
+  padding-right: 0.75rem;
+}
+
+.pr-32 {
+  padding-right: 8rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -2165,6 +2185,14 @@ input:checked + .toggle-bg {
 
 .leading-\[56px\] {
   line-height: 56px;
+}
+
+.leading-\[100\] {
+  line-height: 100;
+}
+
+.leading-\[100\%\] {
+  line-height: 100%;
 }
 
 .tracking-\[-0\.25px\] {
@@ -2783,10 +2811,6 @@ input:checked + .toggle-bg {
     width: 70%;
   }
 
-  .lg\:w-\[90\%\] {
-    width: 90%;
-  }
-
   .lg\:w-auto {
     width: auto;
   }
@@ -2801,10 +2825,6 @@ input:checked + .toggle-bg {
 
   .lg\:justify-start {
     justify-content: flex-start;
-  }
-
-  .lg\:justify-between {
-    justify-content: space-between;
   }
 
   .lg\:justify-evenly {
