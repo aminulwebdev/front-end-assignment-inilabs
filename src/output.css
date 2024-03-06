@@ -1208,10 +1208,6 @@ input:checked + .toggle-bg {
   margin-left: 0.5rem;
 }
 
-.ml-3 {
-  margin-left: 0.75rem;
-}
-
 .ml-4 {
   margin-left: 1rem;
 }
@@ -1398,10 +1394,6 @@ input:checked + .toggle-bg {
 
 .max-w-\[772px\] {
   max-width: 772px;
-}
-
-.max-w-\[80\%\] {
-  max-width: 80%;
 }
 
 .max-w-container {
@@ -1875,16 +1867,6 @@ input:checked + .toggle-bg {
   padding-right: 13px;
 }
 
-.px-\[22px\] {
-  padding-left: 22px;
-  padding-right: 22px;
-}
-
-.px-\[30px\] {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1908,16 +1890,6 @@ input:checked + .toggle-bg {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
 }
 
 .py-8 {
