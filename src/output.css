@@ -1143,6 +1143,26 @@ input:checked + .toggle-bg {
   left: 50%;
 }
 
+.top-\[0\] {
+  top: 0;
+}
+
+.top-\[-77px\] {
+  top: -77px;
+}
+
+.right-\[\] {
+  right: ;
+}
+
+.right-\[-69\] {
+  right: -69;
+}
+
+.right-\[-69px\] {
+  right: -69px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1374,6 +1394,22 @@ input:checked + .toggle-bg {
 
 .w-full {
   width: 100%;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-\[18px\] {
+  width: 18px;
+}
+
+.w-\[20px\] {
+  width: 20px;
+}
+
+.w-\[22px\] {
+  width: 22px;
 }
 
 .max-w-\[200px\] {
