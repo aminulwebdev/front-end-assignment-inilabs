@@ -1803,6 +1803,21 @@ input:checked + .toggle-bg {
   background-color: rgb(255 255 255 / 0.5);
 }
 
+.bg-\[\#0b0903\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(11 9 3 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#110d05\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 13 5 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#0b0803\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(11 8 3 / var(--tw-bg-opacity));
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1810,10 +1825,6 @@ input:checked + .toggle-bg {
 
 .p-1 {
   padding: 0.25rem;
-}
-
-.p-11 {
-  padding: 2.75rem;
 }
 
 .p-2 {
@@ -1842,6 +1853,10 @@ input:checked + .toggle-bg {
 
 .p-\[14px\] {
   padding: 14px;
+}
+
+.p-11 {
+  padding: 2.75rem;
 }
 
 .px-2 {
