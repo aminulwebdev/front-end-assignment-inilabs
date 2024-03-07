@@ -2174,6 +2174,10 @@ input:checked + .toggle-bg {
   line-height: 56px;
 }
 
+.leading-\[100\%\] {
+  line-height: 100%;
+}
+
 .tracking-\[-0\.25px\] {
   letter-spacing: -0.25px;
 }
